@@ -3,7 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.box2{
+    height: 80px;
+}
+.box{
+    width: 100%;
+}
+.boxjogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boxpq{
+    box-shadow: black 10px;
+    width: 420px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: bisque;
+    border-bottom: 50px;
+}
 .header{
     position: fixed;
     top: 0;
@@ -14,8 +35,8 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background: rgba(0, 0, 0, .1);
-    backdrop-filter: blur(50px);
+    background: rgb(0, 0, 0);
+
 }
 
 .logo{
