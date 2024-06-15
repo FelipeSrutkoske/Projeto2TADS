@@ -11,20 +11,72 @@
 }
 .boxjogo{
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
 }
-.boxpq{
-    box-shadow: black 10px;
-    width: 420px;
-    height: 320px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    background-color: bisque;
-    border-bottom: 50px;
+
+body{
+    background: linear-gradient(to right, #8b8b8b, #202020);
 }
+.boxpq{
+    width: 400px; /* largura da caixa */
+    height: auto; /* altura automática baseada no conteúdo */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1); /* sombra */
+    overflow: hidden; /* esconde conteúdo que excede as dimensões */
+    text-align: center; /* centraliza o texto */
+    background: linear-gradient(to right, #ffffff, #d3d2d2);
+    border-radius: 15px;
+    margin-top: 50px;
+
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo do conteúdo do footer */
+footer p {
+    margin: 0; /* Remove margens padrão */
+}
+
+.reem-kufi-ink-regular {
+    font-family: "Reem Kufi Ink", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.boxpq img{
+    max-width: 100%; /* garante que a imagem não ultrapasse a caixa */
+    height: auto; /* permite que a altura seja ajustada proporcionalmente */
+    display: block; /* remove espaços extras ao redor da imagem */
+}
+.texto {
+    padding: 10px; /* espaço interno ao redor do texto */
+    font-size: 32px; /* tamanho da fonte */
+    font-family: "Reem Kufi Ink", sans-serif;
+}
+
+.boxpq button{
+    margin-top: 5px;
+    float: right;
+    border-radius: 15px;
+}
+
+.accordion{
+    margin-top: 50px;
+    background-color: aqua;
+}
+
 .header{
     position: fixed;
     top: 0;
