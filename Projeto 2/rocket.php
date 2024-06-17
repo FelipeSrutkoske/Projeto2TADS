@@ -24,16 +24,18 @@
     </header>
 
     <div class="boxjogopagina">
+
         <div class="boxpqpagina">
-            <img src="imagens/eafc.jpeg" alt="">
-            <div class="texto">EAFC 24</div>
+            <img src="imagens/rocket-league-q83tcwb7har0kh5h.jpg" alt="">
+            <div class="texto">Rocket League</div>
+
         </div>
+
     </div>
+
     <div class="boxjogopagina">
         <div class="boxpqpagina1">
-            <h1>O EAFC 24, lançado em outubro de 2023, representa um avanço significativo na série de jogos de futebol da EA Sports. Com gráficos aprimorados utilizando a tecnologia HyperMotion, o jogo promete uma experiência visual mais realista e imersiva. A introdução do HyperMotion permite movimentos mais fluidos e naturais dos jogadores, capturando melhor a dinâmica e a física do futebol real.
-            Além das melhorias visuais, o EA FC 24 trouxe novos recursos de gameplay, como o sistema de Colisão de Próxima Geração, que melhora o controle e a resposta dos jogadores em situações de um contra um. O modo Carreira também recebeu atualizações com novas mecânicas de treinamento e interações mais profundas entre jogadores e clubes.
-            O Ultimate Team, um dos modos mais populares do FIFA, continuou a evoluir com novos desafios e eventos ao longo da temporada, incentivando a construção de times competitivos e estratégias diversificadas.</h1>
+            <h1>Rocket League é um jogo de esportes motorizados desenvolvido pela Psyonix, onde os jogadores controlam carros equipados com foguetes, disputando partidas frenéticas de futebol. Com uma mistura única de habilidade mecânica e estratégia tática, os jogadores podem executar acrobacias aéreas impressionantes e colaborar em equipes para marcar gols espetaculares. O jogo suporta competições online e local, com uma comunidade vibrante que organiza torneios regulares. Sua jogabilidade acessível e profundidade estratégica fazem de Rocket League um dos jogos de esportes mais cativantes e competitivos da atualidade.</h1>
         </div>
     </div>
 
@@ -41,41 +43,37 @@
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    Competições Esportivas
+                    Accordion Item #1
                 </button>
             </h2>
             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Além de ser um jogo popular entre os jogadores casuais, FIFA também é um título chave em competições de eSports, como a FIFA eWorld Cup, onde jogadores profissionais competem por prêmios em dinheiro e reconhecimento global.</div>
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Ultimate Team
+                    Accordion Item #2
                 </button>
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">O modo Ultimate Team (UT) é uma característica popular nos jogos da série FIFA, onde os jogadores podem construir seus próprios times usando cartas de jogadores obtidas através de pacotes virtuais ou do mercado de transferências dentro do jogo. Cada carta representa um jogador real com atributos específicos que afetam o desempenho da equipe. Os jogadores podem participar de torneios e desafios para ganhar moedas virtuais, usadas para comprar novas cartas ou melhorar o time existente. O UT é conhecido por sua comunidade ativa e competitiva, com eventos regulares e oportunidades para criar estratégias únicas de equipe.</div>
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    Requisitos de Sistema:
+                    Requisitos de Sistema
                 </button>
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                    RECOMENDADOS:
-                    SO: Windows 10 - 64-Bit (Latest Update)
-                    Processador: Intel Core i7-6700 @ 3.40GHz or AMD Ryzen 7 2700X @ 3.7 GHZ
-                    Memória: 12 GB de RAM
-                    Placa de vídeo: NVIDIA GeForce GTX 1660 or AMD RX 5600 XT
-                    DirectX: Versão 12
-                    Rede: Conexão de internet banda larga
-                    Armazenamento: 100 GB de espaço disponível
-                    Outras observações: DirectX: 12 Compatible video card or equivalent
-                </div>
+                <div class="accordion-body">Requisitos Recomendados:
+
+                    Sistema Operacional: Windows 7 (64 bit) ou superior
+                    Processador: 3.0+ GHz Quad core
+                    Memória RAM: 8 GB
+                    Placa de Vídeo: NVIDIA GeForce GTX 1060, AMD Radeon RX 470, ou equivalente
+                    Armazenamento: 20 GB de espaço disponível</div>
             </div>
         </div>
     </div>

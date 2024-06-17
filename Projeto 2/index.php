@@ -16,10 +16,9 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Quem Somos</a>
-            <a href="#">Contato</a>
+            <a href="index.php">Home</a>
+            <a href="sobre.php">Sobre</a>
+            <a href="contato.php">Contato</a>
         </nav>
 
 
@@ -69,11 +68,16 @@
     <div class="boxjogo">
         <div class="boxpq">
             <img src="imagens/eafc.jpeg" alt="">
-            <div class="texto">EAFC 24<button type="button" class="btn btn-secondary">Jogar</button></div>
+            <div class="texto">EAFC 24<a href="fifa.php" class="btn btn-secondary">Jogar</a></div>
         </div>
         <div class="boxpq">
             <img src="imagens/fortsm.jpg" alt="">
-            <div class="texto">Fortnite<button type="button" class="btn btn-secondary">Jogar</button></div>
+            <div class="texto">Fortnite<a href="fortnite.php" class="btn btn-secondary">Jogar</a></div>
+
+        </div>
+        <div class="boxpq">
+            <img src="imagens/printjogo.png" alt="">
+            <div class="texto">The Last Chance: Dead Epidemy<a href="meujogo.php" class="btn btn-secondary">Jogar</a></div>
 
         </div>
         
@@ -82,28 +86,28 @@
     <div class="boxjogo">
         <div class="boxpq">
             <img src="imagens/counter-strike-counter-strike-global-offensive-game-cg-games-art-wallpaper-preview.jpg" alt="">
-            <div class="texto">Counter Strike<button type="button" class="btn btn-secondary">Jogar</button></div>
+            <div class="texto">Counter Strike<a href="cs.php" class="btn btn-secondary">Jogar</a></div>
         </div>
         <div class="boxpq">
             <img src="imagens/gta5.jpg" alt="">
-            <div class="texto">GTA V<button type="button" class="btn btn-secondary">Jogar</button></div>
+            <div class="texto">GTA V<a href="gta.php" class="btn btn-secondary">Jogar</a></div>
 
         </div>
         <div class="boxpq">
             <img src="imagens/rocket-league-q83tcwb7har0kh5h.jpg" alt="">
-            <div class="texto">Rocket League<button type="button" class="btn btn-secondary">Jogar</button></div>
-
+            <div class="texto">Rocket League<a href="rocket.php" class="btn btn-secondary">Jogar</a></div>
+            
         </div>
     </div>
 
     <div class="boxjogo">
         <div class="boxpq">
             <img src="imagens/forza.jpg" alt="">
-            <div class="texto">Forza Horizon 5<button type="button" class="btn btn-secondary">Jogar</button></div>
+            <div class="texto">Forza Horizon 5<a href="forza.php" class="btn btn-secondary">Jogar</a></div>
         </div>
         <div class="boxpq">
             <img src="imagens/thecrew.jpg" alt="">
-            <div class="texto">The Crew 2<button type="button" class="btn btn-secondary">Jogar</button></div>
+            <div class="texto">The Crew 2<a href="thecrew.php" class="btn btn-secondary">Jogar</a></div>
 
         </div>
         
