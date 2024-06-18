@@ -29,10 +29,11 @@ body{
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1); /* sombra */
     overflow: hidden; /* esconde conteúdo que excede as dimensões */
     text-align: center; /* centraliza o texto */
-    background: linear-gradient(to right, #ffffff, #d3d2d2);
+    background-color: #333;
     border-radius: 15px;
     margin-top: 50px;
-
+    color: white;
+    border: solid 2px black;
 }
 
 .boxpqpagina{
@@ -41,12 +42,27 @@ body{
     overflow: hidden; /* esconde conteúdo que excede as dimensões */
     box-shadow: 4px 4px 8px rgb(0, 0, 0); /* sombra */
     text-align: center; /* centraliza o texto */
-    background: linear-gradient(to right, #000000, #5f5f5f);
-    border-radius: 15px;
+    background-color: #333;
+    border-radius: 10px;
     margin-top: 150px;
+    color: white;
+    border: solid 2px black;
+}
+
+.accordion-button{
+    background-color: #333;
     color: white;
 }
 
+.accordion-header{
+    background-color: #aaaaaa;
+    color: white;
+}
+
+.accordion-item{
+    background-color: #aaaaaa;
+    color: rgb(0, 0, 0);
+}
 
 .boxpqpagina1{
     width: 1650px; /* largura da caixa */
@@ -54,13 +70,13 @@ body{
     box-shadow: 4px 4px 8px rgb(0, 0, 0); /* sombra */
     overflow: hidden; /* esconde conteúdo que excede as dimensões */
     text-align: center; /* centraliza o texto */
-    background: linear-gradient(to right, #000000, #5f5f5f);
+    background-color: #333;
     border-radius: 5px;
     margin-top: 50px;
     color: white;
     padding: 40px;
     font-family: "Reem Kufi Ink", sans-serif;
-
+    border: solid 2px black;
 }
 
 .boxpqpagina1 li{
@@ -131,7 +147,8 @@ footer p {
 .boxpq a{
     margin-top: 5px;
     float: right;
-    border-radius: 15px;
+    border-radius: 10px;
+    border: solid 1px black;
 }
 
 .accordion{

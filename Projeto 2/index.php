@@ -77,7 +77,7 @@
         </div>
         <div class="boxpq">
             <img src="imagens/printjogo.png" alt="">
-            <div class="texto">The Last Chance: Dead Epidemy<a href="meujogo.php" class="btn btn-secondary">Jogar</a></div>
+            <div class="texto">Dead Epidemy<a href="meujogo.php" class="btn btn-secondary">Jogar</a></div>
 
         </div>
         
@@ -108,6 +108,11 @@
         <div class="boxpq">
             <img src="imagens/thecrew.jpg" alt="">
             <div class="texto">The Crew 2<a href="thecrew.php" class="btn btn-secondary">Jogar</a></div>
+
+        </div>
+        <div class="boxpq">
+            <img src="imagens/lol.jpg" alt="">
+            <div class="texto">League of Legends<a href="lol.php" class="btn btn-secondary">Jogar</a></div>
 
         </div>
         
