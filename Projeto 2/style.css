@@ -63,6 +63,63 @@ body{
     background-color: #aaaaaa;
     color: rgb(0, 0, 0);
 }
+.container {
+    background-color: #707070;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .h2 {
+    display: flex;
+    font-size: 54px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .name, .email, .message {
+    font-size: 32px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .input[type="text"],
+  .input[type="email"],
+  .textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .textarea {
+    resize: vertical;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
 
 .boxpqpagina1{
     width: 1650px; /* largura da caixa */
@@ -142,6 +199,13 @@ footer p {
     padding: 10px; /* espaço interno ao redor do texto */
     font-size: 32px; /* tamanho da fonte */
     font-family: "Reem Kufi Ink", sans-serif;
+}
+
+.texto1{
+    padding: 10px; /* espaço interno ao redor do texto */
+    font-size: 32px; /* tamanho da fonte */
+    font-family: "Reem Kufi Ink", sans-serif;
+    text-align: center;
 }
 
 .boxpq a{

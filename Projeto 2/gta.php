@@ -16,10 +16,9 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Quem Somos</a>
-            <a href="#">Contato</a>
+            <a href="index.php">Home</a>
+            <a href="sobre.php">Sobre</a>
+            <a href="contato.php">Contato</a>
         </nav>
     </header>
 

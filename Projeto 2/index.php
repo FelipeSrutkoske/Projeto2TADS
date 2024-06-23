@@ -10,12 +10,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+    <?php
+    $url = "projeto 2/api";
+
+    $dadosApi = file_get_contents($url);
+
+    $dadosJogos = json_decode($dadosApi);
+
+    ?>
     <header class="header">
         <nav class="navbar">
+            <div class="spiner"></div>
+            <a href="index.php">The Circle</a>
             <a href="index.php">Home</a>
             <a href="sobre.php">Sobre</a>
             <a href="contato.php">Contato</a>
@@ -65,60 +79,80 @@
         </div>
     </div>
 
-    <div class="boxjogo">
-        <div class="boxpq">
+    <div class="boxjogo" data-aos='fade-in'>
+        <div class="boxpq" data-aos='fade-in'>
             <img src="imagens/eafc.jpeg" alt="">
             <div class="texto">EAFC 24<a href="fifa.php" class="btn btn-secondary">Jogar</a></div>
         </div>
-        <div class="boxpq">
+        <div class="boxpq" data-aos='fade-in'>
             <img src="imagens/fortsm.jpg" alt="">
             <div class="texto">Fortnite<a href="fortnite.php" class="btn btn-secondary">Jogar</a></div>
 
         </div>
-        <div class="boxpq">
+        <div class="boxpq" data-aos='fade-in'>
             <img src="imagens/printjogo.png" alt="">
             <div class="texto">Dead Epidemy<a href="meujogo.php" class="btn btn-secondary">Jogar</a></div>
 
         </div>
-        
+
     </div>
 
-    <div class="boxjogo">
-        <div class="boxpq">
+    <div class="boxjogo" data-aos='fade-in'>
+        <div class="boxpq" data-aos='fade-in'>
             <img src="imagens/counter-strike-counter-strike-global-offensive-game-cg-games-art-wallpaper-preview.jpg" alt="">
             <div class="texto">Counter Strike<a href="cs.php" class="btn btn-secondary">Jogar</a></div>
         </div>
-        <div class="boxpq">
+        <div class="boxpq" data-aos='fade-in'>
             <img src="imagens/gta5.jpg" alt="">
             <div class="texto">GTA V<a href="gta.php" class="btn btn-secondary">Jogar</a></div>
 
         </div>
-        <div class="boxpq">
+        <div class="boxpq" data-aos='fade-in'>
             <img src="imagens/rocket-league-q83tcwb7har0kh5h.jpg" alt="">
             <div class="texto">Rocket League<a href="rocket.php" class="btn btn-secondary">Jogar</a></div>
-            
+
         </div>
     </div>
 
-    <div class="boxjogo">
-        <div class="boxpq">
+    <div class="boxjogo" data-aos='fade-in'>
+        <div class="boxpq" data-aos='fade-in'>
             <img src="imagens/forza.jpg" alt="">
             <div class="texto">Forza Horizon 5<a href="forza.php" class="btn btn-secondary">Jogar</a></div>
         </div>
-        <div class="boxpq">
+        <div class="boxpq" data-aos='fade-in'>
             <img src="imagens/thecrew.jpg" alt="">
             <div class="texto">The Crew 2<a href="thecrew.php" class="btn btn-secondary">Jogar</a></div>
 
         </div>
-        <div class="boxpq">
+        <div class="boxpq" data-aos='fade-in'>
             <img src="imagens/lol.jpg" alt="">
             <div class="texto">League of Legends<a href="lol.php" class="btn btn-secondary">Jogar</a></div>
 
         </div>
-        
+
     </div>
 
-    
+    <main>
+        <?php
+        $pagina = "home";
+        if (isset($_GET["pagina"])) {
+            $pagina = $_GET["pagina"] ?? "home";
+            $pagina = explode("/", $pagina);
+            $codigo = $pagina[1] ?? NULL;
+            $pagina = $pagina[0] ?? "home";
+        }
+
+        $pagina = "pages/{$pagina}.php";
+
+        if (file_exists($pagina)) {
+            include $pagina;
+        } else {
+            include "pages/erro.php";
+        }
+        ?>
+    </main>
+
+
 
     <footer>
         <div class="container">
@@ -128,7 +162,12 @@
 
 
 
-
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/fslightbox.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 

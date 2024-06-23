@@ -16,10 +16,9 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Quem Somos</a>
-            <a href="#">Contato</a>
+            <a href="index.php">Home</a>
+            <a href="sobre.php">Sobre</a>
+            <a href="contato.php">Contato</a>
         </nav>
     </header>
 
@@ -32,8 +31,8 @@
     <div class="boxjogopagina">
         <div class="boxpqpagina1">
             <h1>O EAFC 24, lançado em outubro de 2023, representa um avanço significativo na série de jogos de futebol da EA Sports. Com gráficos aprimorados utilizando a tecnologia HyperMotion, o jogo promete uma experiência visual mais realista e imersiva. A introdução do HyperMotion permite movimentos mais fluidos e naturais dos jogadores, capturando melhor a dinâmica e a física do futebol real.
-            Além das melhorias visuais, o EA FC 24 trouxe novos recursos de gameplay, como o sistema de Colisão de Próxima Geração, que melhora o controle e a resposta dos jogadores em situações de um contra um. O modo Carreira também recebeu atualizações com novas mecânicas de treinamento e interações mais profundas entre jogadores e clubes.
-            O Ultimate Team, um dos modos mais populares do FIFA, continuou a evoluir com novos desafios e eventos ao longo da temporada, incentivando a construção de times competitivos e estratégias diversificadas.</h1>
+                Além das melhorias visuais, o EA FC 24 trouxe novos recursos de gameplay, como o sistema de Colisão de Próxima Geração, que melhora o controle e a resposta dos jogadores em situações de um contra um. O modo Carreira também recebeu atualizações com novas mecânicas de treinamento e interações mais profundas entre jogadores e clubes.
+                O Ultimate Team, um dos modos mais populares do FIFA, continuou a evoluir com novos desafios e eventos ao longo da temporada, incentivando a construção de times competitivos e estratégias diversificadas.</h1>
         </div>
     </div>
 

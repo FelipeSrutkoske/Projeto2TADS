@@ -16,10 +16,9 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Quem Somos</a>
-            <a href="#">Contato</a>
+            <a href="index.php">Home</a>
+            <a href="sobre.php">Sobre</a>
+            <a href="contato.php">Contato</a>
         </nav>
     </header>
 
@@ -33,7 +32,7 @@
     <div class="boxjogopagina">
         <div class="boxpqpagina1">
             <h1>Um jogo top down shooter, onde o objetivo e conseguir o maximo de abates possivel enquanto corre do ataque dos zumbis.
-            Nosso personagem cria um fascinio por eliminar zumbis, assim, tornando-se o objetivo principal do jogo, eliminar o maximo de mortos possivel.</h1>
+                Nosso personagem cria um fascinio por eliminar zumbis, assim, tornando-se o objetivo principal do jogo, eliminar o maximo de mortos possivel.</h1>
         </div>
     </div>
 

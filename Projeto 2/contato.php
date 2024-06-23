@@ -30,31 +30,41 @@
         </div>
 
     </div>
+
+
+    <div class="texto1">Formulario PHP</div>
+    <div class="container">
+        <div class="texto1">Entre em contato:</div>
+        <form action="">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <input id="message" name="message" required></input>
+            </div>
+            <button type="submit" class="btn btn-danger">Enviar</button>
+        </form>
+    </div>
+
+
     <div class="boxjogopagina">
         <div class="boxpqpagina1">
             <ul>
-                <li>Aluno:  Felipe Luiz de Queiroz Srutkoske</li>
-                <li>Telefone:  99987-4134</li>
-                <li>e-mail:  srutkosk.felip@gmail.com</li>
+                <li>Aluno: Felipe Luiz de Queiroz Srutkoske</li>
+                <li>Telefone: 99987-4134</li>
+                <li>e-mail: srutkosk.felip@gmail.com</li>
             </ul>
         </div>
     </div>
 
     </div>
 
-    <h2>Formulário PHP Simples</h2>
-    <form method="post" action="processa_formulario.php">
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome" required><br><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="mensagem">Mensagem:</label><br>
-        <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
-
-        <input type="submit" value="Enviar">
-    </form>
 
     <footer>
         <div class="container">
