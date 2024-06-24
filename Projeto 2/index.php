@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Site 2</title>
+    <title>The Circle</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/printjogo.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
 
 <body>
@@ -79,54 +81,54 @@
         </div>
     </div>
 
-    <div class="boxjogo" data-aos='fade-in'>
-        <div class="boxpq" data-aos='fade-in'>
+    <div class="boxjogo" data-aos='fade-right'>
+        <div class="boxpq" data-aos='fade-right'>
             <img src="imagens/eafc.jpeg" alt="">
-            <div class="texto">EAFC 24<a href="fifa.php" class="btn btn-secondary">Jogar</a></div>
+            <div class="texto">EAFC 24<a href="fifa.php" class="btn btn-danger">Jogar</a></div>
         </div>
-        <div class="boxpq" data-aos='fade-in'>
+        <div class="boxpq" data-aos='fade-right'>
             <img src="imagens/fortsm.jpg" alt="">
-            <div class="texto">Fortnite<a href="fortnite.php" class="btn btn-secondary">Jogar</a></div>
+            <div class="texto">Fortnite<a href="fortnite.php" class="btn btn-danger">Jogar</a></div>
 
         </div>
-        <div class="boxpq" data-aos='fade-in'>
+        <div class="boxpq" data-aos='fade-right'>
             <img src="imagens/printjogo.png" alt="">
-            <div class="texto">Dead Epidemy<a href="meujogo.php" class="btn btn-secondary">Jogar</a></div>
+            <div class="texto">Dead Epidemy<a href="meujogo.php" class="btn btn-danger">Jogar</a></div>
 
         </div>
 
     </div>
 
-    <div class="boxjogo" data-aos='fade-in'>
-        <div class="boxpq" data-aos='fade-in'>
+    <div class="boxjogo" data-aos='fade-right'>
+        <div class="boxpq" data-aos='fade-right'>
             <img src="imagens/counter-strike-counter-strike-global-offensive-game-cg-games-art-wallpaper-preview.jpg" alt="">
-            <div class="texto">Counter Strike<a href="cs.php" class="btn btn-secondary">Jogar</a></div>
+            <div class="texto">Counter Strike<a href="cs.php" class="btn btn-danger">Jogar</a></div>
         </div>
-        <div class="boxpq" data-aos='fade-in'>
+        <div class="boxpq" data-aos='fade-right'>
             <img src="imagens/gta5.jpg" alt="">
-            <div class="texto">GTA V<a href="gta.php" class="btn btn-secondary">Jogar</a></div>
+            <div class="texto">GTA V<a href="gta.php" class="btn btn-danger">Jogar</a></div>
 
         </div>
-        <div class="boxpq" data-aos='fade-in'>
+        <div class="boxpq" data-aos='fade-right'>
             <img src="imagens/rocket-league-q83tcwb7har0kh5h.jpg" alt="">
-            <div class="texto">Rocket League<a href="rocket.php" class="btn btn-secondary">Jogar</a></div>
+            <div class="texto">Rocket League<a href="rocket.php" class="btn btn-danger">Jogar</a></div>
 
         </div>
     </div>
 
-    <div class="boxjogo" data-aos='fade-in'>
-        <div class="boxpq" data-aos='fade-in'>
+    <div class="boxjogo" data-aos='fade-right'>
+        <div class="boxpq" data-aos='fade-right'>
             <img src="imagens/forza.jpg" alt="">
-            <div class="texto">Forza Horizon 5<a href="forza.php" class="btn btn-secondary">Jogar</a></div>
+            <div class="texto">Forza Horizon 5<a href="forza.php" class="btn btn-danger">Jogar</a></div>
         </div>
-        <div class="boxpq" data-aos='fade-in'>
+        <div class="boxpq" data-aos='fade-right'>
             <img src="imagens/thecrew.jpg" alt="">
-            <div class="texto">The Crew 2<a href="thecrew.php" class="btn btn-secondary">Jogar</a></div>
+            <div class="texto">The Crew 2<a href="thecrew.php" class="btn btn-danger">Jogar</a></div>
 
         </div>
-        <div class="boxpq" data-aos='fade-in'>
+        <div class="boxpq" data-aos='fade-right'>
             <img src="imagens/lol.jpg" alt="">
-            <div class="texto">League of Legends<a href="lol.php" class="btn btn-secondary">Jogar</a></div>
+            <div class="texto">League of Legends<a href="lol.php" class="btn btn-danger">Jogar</a></div>
 
         </div>
 
@@ -165,6 +167,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/fslightbox.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
