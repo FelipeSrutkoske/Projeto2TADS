@@ -22,7 +22,7 @@
             <a href="contato.php">Contato</a>
         </nav>
     </header>
-
+    <div class="containerAlt">
     <div class="boxjogopagina">
         <div class="boxpqpagina">
             <img src="imagens/printjogo.png" alt="">
@@ -35,6 +35,8 @@
             <h1>Um jogo top down shooter, onde o objetivo e conseguir o maximo de abates possivel enquanto corre do ataque dos zumbis.
                 Nosso personagem cria um fascinio por eliminar zumbis, assim, tornando-se o objetivo principal do jogo, eliminar o maximo de mortos possivel.</h1>
         </div>
+    </div>
+
     </div>
 
     <div class="accordion accordion-flush" id="accordionFlushExample">

@@ -36,6 +36,25 @@ body{
     border: solid 2px black;
 }
 
+.containerImagem {
+    position: relative;
+    display: inline-block;
+}
+
+.imagem-maior {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.imagem-menor {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px; /* ajuste conforme necessário */
+    height: auto;
+}
+
 .boxpqpagina{
     width: 600px; /* largura da caixa */
     height: auto; /* altura automática baseada no conteúdo */

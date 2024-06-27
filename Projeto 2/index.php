@@ -49,7 +49,10 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="imagens/valorant-305kescxw5dpup7y.jpg" class="d-block w-100" alt="...">
+                    <div class="containerImagem">
+                        <img src="imagens/valorant-305kescxw5dpup7y.jpg" alt="Imagem Maior" class="imagem-maior">
+                        <img src="imagens/seta.png" alt="Imagem Menor" class="imagem-menor">
+                    </div>
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Valorant</h5>
                         <p>Jogo competitivo 5x5. No estilo FPS.</p>
